@@ -1,0 +1,418 @@
+{
+    "intents": [
+        {
+            "category": "greeting",
+            "questions": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "What's up", "Hey", "Greetings", "Howdy", "Yo", "Good morning", "Good afternoon", "Good evening"],
+            "answers": [
+                "Hello! Great to see you!",
+                "Hey there! Hows your day going?",
+                "Hi! How can I assist you today?",
+                "Welcome back! Whats on your mind?",
+                "Hey! Always a pleasure to chat with you!",
+                "Good day! Hope you're feeling great.",
+                "Nice to see you again! Hows everything?",
+                "Howdy! Whats new?",
+                "Yo! Hope youre having an awesome day!",
+                "Good morning! Hope today is off to a great start.",
+                "Good afternoon! Hows your day shaping up?",
+                "Good evening! How was your day?",
+                "Hello there! Ready for an interesting conversation?",
+                "Hey! Whats happening in your world today?",
+                "Greetings, friend! Whats on your mind?",
+                "Hi there! I'm here to help. What can I do for you?",
+                "Ah, a familiar face! Whats up?",
+                "Hey! Whats the latest with you?",
+                "Nice to see you! Lets make today productive!",
+                "Hello! What exciting things are you up to?"
+            ]
+        },
+
+        {
+            "category": "goodbye",
+            "questions": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+            "answers": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "See you around!", "Take care and have a fantastic day!"]
+        },
+        {
+            "category": "programming",
+            "questions": ["What is programming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+            "answers": ["Programming is writing computer code to automate tasks.", "Coding lets you communicate with computers to create software.", "Software development brings creative solutions to life!", "Writing code is like crafting a digital puzzle—every piece fits together."]
+        },
+		{
+            "category": "help",
+            "questions": ["I need help", "Can you assist me?", "Help me", "I have a problem"],
+            "answers": ["Of course! Let me know what you need help with.", "Im here to assist—whats the issue?", "How can I help?", "Tell me what you need help with!"]
+        },
+        {
+            "category": "faq",
+            "questions": ["Frequently asked questions", "FAQ", "Common questions", "Help topics"],
+            "answers": ["Here are some frequently asked questions: [insert FAQ dynamically].", "Looking for answers? Ive got some common questions right here!", "Check out these FAQs to get started."]
+        },
+        {
+            "category": "math",
+            "questions": ["Can you solve math problems?", "Calculate this for me", "Solve this equation", "What is the answer to"],
+            "answers": ["I can help with math! Send me your equation.", "Lets crunch some numbers—what do you need solved?", "Math is fun! What calculation do you need?", "Sure! Send me the numbers, and Ill solve it."]
+        },
+        {
+            "category": "translate",
+            "questions": ["Can you translate?", "Translate this for me", "Help me with translation", "What does this mean in another language?"],
+            "answers": ["I can translate words and phrases—tell me what you need!", "Lets break the language barrier—what do you want translated?", "Send me the text and the target language, and Ill translate it for you!", "Translation coming up! Just provide me the text."]
+        },
+        {
+            "category": "recipe",
+            "questions": ["Give me a recipe", "How do I make this dish?", "Cooking instructions", "I need a recipe for"],
+            "answers": ["Ive got some great recipes for you—what would you like to cook?", "Lets turn ingredients into a masterpiece! What recipe do you need?", "Cooking made simple! Tell me the dish and Ill provide a recipe.", "Chef mode activated! Let me fetch a recipe for you."]
+        },
+        {
+            "category": "health",
+            "questions": ["Tell me about healthy habits", "How can I stay fit?", "Give me health tips", "How do I maintain a healthy lifestyle?"],
+            "answers": ["Health is wealth! I can give you tips on nutrition, exercise, and mental wellness.", "Staying fit is important! What aspect of health are you curious about?", "Healthy habits make a difference! Let me share some insights with you.", "From diet to workouts, I can help! What do you need advice on?"]
+        },
+        {
+            "category": "travel",
+            "questions": ["Tell me about travel", "Where should I go?", "Travel destinations", "Best places to visit"],
+            "answers": ["The world is full of amazing places! Where are you thinking of going?", "I can suggest great destinations based on your preferences!", "Lets plan your next adventure—where do you want to explore?", "Looking for a travel getaway? Ive got recommendations!"]
+        },
+        {
+            "category": "movies",
+            "questions": ["What movie should I watch?", "Recommend me a film", "Popular movies", "Best movies"],
+            "answers": ["Lets find you the perfect movie! What genre do you like?", "From action to romance, I can suggest great films!", "Need a good movie? Tell me your preferences!", "Lets find something entertaining for you to watch."]
+        },
+
+        {
+            "category": "books",
+            "questions": ["What book should I read?", "Recommend me a book", "Best books", "Popular novels"],
+            "answers": ["Books are a great escape! What genre do you enjoy?", "I can suggest some amazing reads based on your interests!", "Looking for a new book? Lets find something captivating!", "Lets dive into the world of literature together!"]
+        },
+        {
+            "category": "games",
+            "questions": ["What game should I play?", "Recommend me a game", "Best games", "Popular video games"],
+            "answers": ["Gaming is awesome! What type of games do you like?", "I can suggest some great games based on your preferences!", "Looking for a new gaming experience? Lets find something fun!", "Lets explore the gaming world together!"]
+        },
+        {
+            "category": "art",
+            "questions": ["Tell me about art", "Best artists", "Famous artworks", "Art history"],
+            "answers": ["Art is a beautiful expression! What type of art do you like?", "I can share insights on famous artists and their works!", "Lets explore the world of art together—what interests you?", "Looking for art inspiration? Ive got plenty to share!"]
+        },
+        {
+            "category": "science",
+            "questions": ["Tell me about science", "Latest scientific discoveries", "Famous scientists", "Science facts"],
+            "answers": ["Science is fascinating! What area of science interests you?", "I can share amazing facts and discoveries in science!", "Lets explore the wonders of science together—what do you want to know?", "Looking for scientific insights? Im here to help!"]
+        },
+        {
+            "category": "technology",
+            "questions": ["Tell me about technology", "Latest tech trends", "Best gadgets", "Tech news"],
+            "answers": ["Technology is ever evolving! What aspect of tech interests you?", "I can share the latest trends and innovations in technology!", "Lets explore the world of gadgets and tech together!", "Looking for tech insights? Ive got plenty to share!"]
+        },
+        {
+            "category": "fashion",
+            "questions": ["Tell me about fashion", "Latest fashion trends", "Best outfits", "Fashion advice"],
+            "answers": ["Fashion is an art! What style do you love?", "I can share the latest trends and outfit ideas!", "Lets explore the world of fashion together—what do you want to know?", "Looking for fashion inspiration? Im here to help!"]
+        },
+        {
+            "category": "music",
+            "questions": ["Recommend me a song", "Best music", "What should I listen to?", "Popular songs"],
+            "answers": ["Music is life! What genre do you enjoy?", "Looking for a new favorite tune? I can help!", "Tell me your mood and Ill find a great song for you!", "Lets explore some amazing music—what do you like listening to?"]
+        },
+        {
+            "category": "pets",
+            "questions": ["Tell me about pets", "Best pets", "Pet care tips", "What pet should I get?"],
+            "answers": ["Pets are wonderful companions! What type of pet are you interested in?", "I can share tips on pet care and training!", "Lets explore the world of pets together—what do you want to know?", "Looking for pet advice? Im here to help!"]
+        },
+        {
+            "category": "finance",
+            "questions": ["Tell me about finance", "Best investment tips", "Financial advice", "How to save money"],
+            "answers": ["Finance is crucial! What aspect of finance interests you?", "I can share tips on saving, investing, and budgeting!", "Lets explore financial strategies together—what do you want to know?", "Looking for financial insights? Im here to help!"]
+        },
+        {
+            "category": "environment",
+            "questions": ["Tell me about the environment", "Climate change", "Sustainability tips", "How to help the planet"],
+            "answers": ["The environment is important! What aspect are you curious about?", "I can share tips on sustainability and eco friendly practices!", "Lets explore ways to help the planet together—what do you want to know?", "Looking for environmental insights? Im here to help!"]
+        },
+        {
+            "category": "travel",
+            "questions": ["Tell me about travel", "Best travel destinations", "Travel tips", "Where should I go?"],
+            "answers": ["Travel opens up the world! Where do you want to go?", "I can suggest amazing destinations based on your interests!", "Lets plan your next adventure together—what are you thinking?", "Looking for travel inspiration? Ive got plenty to share!"]
+        },
+        {
+            "category": "fitness",
+            "questions": ["Tell me about fitness", "Best workouts", "How to stay fit", "Fitness tips"],
+            "answers": ["Fitness is key to a healthy life! What are your goals?", "I can share workout routines and fitness tips!", "Lets explore fitness together—what do you want to achieve?", "Looking for fitness advice? Im here to help!"]
+        },
+        {
+            "category": "relationships",
+            "questions": ["Tell me about relationships", "Relationship advice", "How to improve my relationship", "Best dating tips"],
+            "answers": ["Relationships are important! What aspect are you curious about?", "I can share tips on communication and building strong connections!", "Lets explore relationship dynamics together—what do you want to know?", "Looking for relationship insights? Im here to help!"]
+        },
+        {
+            "category": "self_improvement",
+            "questions": ["Tell me about self improvement", "How to improve myself", "Best self help tips", "Personal development advice"],
+            "answers": ["Self improvement is a journey! What area do you want to focus on?", "I can share tips on personal growth and development!", "Lets explore self improvement strategies together—what do you want to achieve?", "Looking for self help insights? Im here to help!"]
+        },
+        {
+            "category": "parenting",
+            "questions": ["Tell me about parenting", "Best parenting tips", "How to raise kids", "Parenting advice"],
+            "answers": ["Parenting is a rewarding journey! What aspect are you curious about?", "I can share tips on child development and parenting strategies!", "Lets explore parenting together—what do you want to know?", "Looking for parenting insights? Im here to help!"]
+        },
+        {
+            "category": "history",
+            "questions": ["Tell me about history", "Historical events", "Famous historical figures", "What happened in the past?"],
+            "answers": ["History is fascinating! What time period are you interested in?", "I can share facts from ancient to modern history!", "Lets go back in time—what historical topic intrigues you?", "Looking for history lessons? Ive got plenty to share!"]
+        },
+        {
+            "category": "philosophy",
+            "questions": ["Tell me about philosophy", "Famous philosophers", "Philosophical concepts", "What is philosophy?"],
+            "answers": ["Philosophy is the love of wisdom! What area interests you?", "I can share insights on famous philosophers and their ideas!", "Lets explore philosophical concepts together—what do you want to know?", "Looking for philosophical discussions? Im here to help!"]
+        },
+        {
+            "category": "history",
+            "questions": ["Tell me about history", "Historical facts", "Famous historical events", "What happened in the past?"],
+            "answers": ["History is fascinating! What time period are you interested in?", "I can share facts from ancient to modern history!", "Lets go back in time—what historical topic intrigues you?", "Looking for history lessons? Ive got plenty to share!"]
+        },
+		{
+			"category": "sports",
+			"questions": ["Tell me about sports", "Latest sports news", "Popular sports", "Best athletes"],
+			"answers": ["Sports are thrilling! What sport do you follow?", "I can provide updates on your favorite teams and players!", "Lets talk about the latest in sports—what interests you?", "From football to basketball, Ive got the scoop on sports!"]
+		},
+		{
+			"category": "food",
+			"questions": ["Tell me about food", "Best restaurants", "Food recommendations", "What should I eat?"],
+			"answers": ["Food is life! What type of cuisine do you enjoy?", "Looking for a great meal? I can suggest some options!", "Lets explore delicious food together—what are you craving?", "Hungry? Ive got some tasty recommendations for you!"]
+		},
+		{
+			"category": "advice",
+			"questions": ["Give me advice", "I need some guidance", "Help me with a decision", "What should I do?"],
+			"answers": ["Im here to help! What do you need advice on?", "Lets tackle this together—whats on your mind?", "I can provide insights and suggestions—tell me more!", "Need guidance? Im all ears!"]
+		},
+		{
+			"category": "motivation",
+			"questions": ["I need motivation", "Inspire me", "Give me a pep talk", "How can I stay motivated?"],
+			"answers": ["Youve got this! Remember, every step counts!", "Believe in yourself! Youre capable of amazing things!", "Stay focused and keep pushing forward—youre doing great!", "Motivation is key! Lets conquer those goals together!"]
+		},
+        {
+            "category": "resource",
+            "questions": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+            "answers": ["Check out freeCodeCamp, Codecademy, or Coursera for great programming resources.", "Harvards CS50 is a legendary course if youre getting started!", "LeetCode and Codewars are fantastic for practicing coding challenges!", "Consider joining coding communities like Stack Overflow or GitHub Discussions."]
+        },
+        {
+            "category": "stocks",
+            "questions": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
+            "answers": ["Here are your stocks!", "Pulling up stock market data for you!", "Analyzing your investments...", "Stock trends incoming!"]
+        },
+        {
+            "category": "weather",
+            "questions": ["weather", "weather today", "Whats the weather like?", "Show me todays weather", "Tell me the forecast"],
+            "answers": ["Fetching weather information...", "Lets find out if its an umbrella day.", "Checking the forecast for you!", "Heres todays weather!", "Getting the latest temperature trends…"]
+        },
+        {
+            "category": "news",
+            "questions": ["news", "Whats in the news?", "Show me the latest headlines", "Tell me todays news"],
+            "answers": ["Fetching latest news...", "Bringing you the top headlines now!", "Loading todays most talked about stories.", "Lets see whats happening in the world!"]
+        },
+        {
+            "category": "crypto",
+            "questions": ["Show me crypto prices", "Whats Bitcoin at?", "Get Ethereum price", "Crypto market updates"],
+            "answers": ["Checking crypto prices now!", "Bitcoin, Ethereum, and more—lets check their value.", "Getting real time crypto market updates for you!", "Analyzing blockchain trends..."]
+        },
+        {
+            "category": "joke",
+            "questions": ["Tell me a joke", "Make me laugh", "I need a joke", "Do you know any jokes?"],
+            "answers": [
+                "Why dont scientists trust atoms? Because they make up everything!",
+                "Why do Java developers wear glasses? Because they dont see sharp!",
+                "Debugging: The process of removing bugs—only to realize 10 more exist!",
+                "What do you call 8 hobbits? A hob byte!",
+                "I told my computer I needed a break… and now it wont stop giving me errors!",
+                "Why do programmers prefer dark mode? Because light attracts bugs!",
+                "A SQL query walks into a bar, sees two tables, and asks: 'Can I join you?'",
+                "Why did the computer catch a cold? It forgot to clear its cache!",
+                "How do you comfort a JavaScript bug? You console it.",
+                "Why did the chatbot refuse to answer? It had too many intents!",
+                "Why did the programmer go broke? He lost his cache!",
+                "How do clouds form in cyberspace? Through a bit of overloading.",
+                "Parallel lines have so much in common. Its a shame theyll never meet.",
+                "Why dont skeletons fight each other? They dont have the guts!",
+                "Whats a computers favorite beat? An algorithm!",
+                "A UDP packet walks into a bar. The bartender doesnt acknowledge it.",
+                "I told my password to my cat… now it's encrypted!",
+                "A computer scientists favorite snack? Microchips!",
+                "Why did the neural network break up with the dataset? Too many inconsistencies!",
+                "Why did the Python programmer have a great relationship? He always handled exceptions well!",
+                "Why don't AI systems tell secrets? They can't keep things classified!",
+                "Whats an AIs favorite sport? Machine learning!",
+                "Why did the developer get stuck outside? His key was null.",
+                "How does a programmer like their coffee? With strong typing!",
+                "Why was the function so calm? It had good scope handling!"
+            ]
+        },
+
+        {
+            "category": "thanks",
+            "questions": ["Thanks", "Thank you", "Thats helpful", "Thanks for your help"],
+            "answers": ["Youre welcome!", "No problem, happy to help!", "Anytime!", "Glad I could assist—always here for you!", "I appreciate the gratitude!"]
+        },
+        {
+            "category": "time_date",
+            "questions": ["What time is it?", "Tell me the time", "Current time", "Show me the time"],
+            "answers": ["The current time is [insert dynamically].", "Its time to seize the day!", "Checking the time for you...", "Your schedule matters! Let me grab the time."]
+        },
+        {
+            "category": "data_structures",
+            "questions": ["What are data structures?", "Explain linked lists", "Tell me about stacks and queues"],
+            "answers": [
+                "Data structures are ways of organizing and storing data efficiently. Common types include arrays, linked lists, stacks, queues, and trees.",
+                "Linked lists are dynamic data structures where each element (node) links to the next. They are useful for efficient insertions and deletions.",
+                "Stacks follow Last In, First Out (LIFO) while queues follow First In, First Out (FIFO). These are fundamental for handling ordered data processing."
+            ]
+        },
+        {
+            "category": "algorithms",
+            "questions": ["What are algorithms?", "Explain sorting algorithms", "How does dynamic programming work?"],
+            "answers": [
+                "Algorithms are step by step procedures for solving problems efficiently. Examples include searching, sorting, and graph traversal.",
+                "Sorting algorithms like QuickSort, MergeSort, and BubbleSort help organize data for better retrieval and analysis.",
+                "Dynamic programming optimizes solutions by storing subproblem results, reducing redundant calculations in recursion."
+            ]
+        },
+        {
+            "category": "operating_systems",
+            "questions": ["What are operating systems?", "Tell me about Linux", "How does a kernel work?"],
+            "answers": [
+                "An operating system manages hardware and software resources, enabling user interaction. Examples include Windows, Linux, and macOS.",
+                "Linux is an open source OS known for security and flexibility. It’s widely used for servers, embedded systems, and development.",
+                "The kernel is the core of an OS, handling process management, memory allocation, and hardware interactions."
+            ]
+        },
+        {
+            "category": "networking",
+            "questions": ["What is computer networking?", "How does the internet work?", "Explain TCP/IP"],
+            "answers": [
+                "Networking connects computers for communication. Protocols like TCP/IP enable data exchange across the internet.",
+                "The internet is a vast network of interconnected systems using IP addresses to route data globally.",
+                "TCP/IP is the backbone of internet communication, ensuring reliable transmission of data across networks."
+            ]
+        },
+        {
+            "category": "cybersecurity",
+            "questions": ["Tell me about cybersecurity", "How does encryption work?", "What are firewalls?"],
+            "answers": [
+                "Cybersecurity involves protecting systems from threats. Techniques include encryption, authentication, and network security.",
+                "Encryption secures data by converting information into unreadable formats, ensuring confidentiality and integrity.",
+                "Firewalls act as barriers that filter incoming and outgoing traffic, preventing unauthorized access to networks."
+            ]
+        },
+        {
+            "category": "databases",
+            "questions": ["Tell me about databases", "SQL vs NoSQL", "How do indexes work?"],
+            "answers": [
+                "Databases store and organize data for efficient retrieval. SQL databases use structured tables, while NoSQL databases handle unstructured data.",
+                "SQL databases like MySQL are relational, while NoSQL solutions like MongoDB are scalable for large datasets.",
+                "Indexes in databases speed up queries by organizing data, reducing search time and improving performance."
+            ]
+        },
+        {
+            "category": "cloud_computing",
+            "questions": ["What is cloud computing?", "Tell me about AWS", "How does serverless computing work?"],
+            "answers": [
+                "Cloud computing provides scalable resources over the internet, allowing businesses to store and process data remotely.",
+                "AWS, Azure, and Google Cloud offer cloud based services for storage, computing, and AI driven applications.",
+                "Serverless computing removes the need for infrastructure management, automatically scaling based on demand."
+            ]
+        },
+        {
+            "category": "machine_learning",
+            "questions": ["Tell me about machine learning", "How does AI work?", "What are neural networks?"],
+            "answers": [
+                "Machine learning enables computers to learn questions from data, improving decision making without explicit programming.",
+                "AI mimics human cognition using algorithms for tasks like image recognition, natural language processing, and robotics.",
+                "Neural networks simulate brain like structures, processing data through layers for classification and predictions."
+            ]
+        },
+        {
+            "category": "big_data",
+            "questions": ["What is big data?", "Tell me about Hadoop", "How do data lakes work?"],
+            "answers": [
+                "Big data refers to massive data sets requiring specialized tools for analysis. Technologies like Hadoop and Spark process large scale information.",
+                "Hadoop enables distributed storage and computation, making it ideal for handling complex datasets.",
+                "Data lakes store raw, unstructured data, providing flexibility in analytics and insights."
+            ]
+        },
+        {
+            "category": "computer_architecture",
+            "questions": ["Tell me about computer architecture", "What is a CPU?", "How does memory work?"],
+            "answers": [
+                "Computer architecture defines how hardware components interact, including CPU, memory, and storage.",
+                "The CPU executes instructions, performing calculations required for computing tasks.",
+                "Memory stores and retrieves data for processing. RAM provides fast access, while persistent storage retains information."
+            ]
+        },
+        {
+            "category": "programming_paradigms",
+            "questions": ["Tell me about programming paradigms", "What is functional programming?", "Explain object oriented programming"],
+            "answers": [
+                "Programming paradigms define coding structures. Major types include procedural, functional, and object oriented programming.",
+                "Functional programming treats computation as mathematical functions, eliminating side effects for better modularity.",
+                "Object oriented programming organizes code into objects, making programs more reusable and maintainable."
+            ]
+        },
+        {
+            "category": "software_development_lifecycle",
+            "questions": ["Tell me about SDLC", "What is Agile?", "How does DevOps work?"],
+            "answers": [
+                "The software development lifecycle ensures structured software creation, covering planning, coding, testing, and deployment.",
+                "Agile promotes iterative development, enhancing flexibility and collaboration in software projects.",
+                "DevOps integrates development and operations, streamlining continuous deployment and automation."
+            ]
+        },
+        {
+            "category": "web_development",
+            "questions": ["Tell me about web development", "What is front end vs back end?", "How do APIs work?"],
+            "answers": [
+                "Web development involves creating websites and applications using front end and back end technologies.",
+                "Front end development handles user interfaces using HTML, CSS, and JavaScript, while back end manages databases and server logic.",
+                "APIs enable communication between systems, allowing seamless interaction between applications."
+            ]
+        },
+        {
+            "category": "mobile_development",
+            "questions": ["Tell me about mobile development", "How does Android development work?", "What is cross platform development?"],
+            "answers": [
+                "Mobile development creates apps for smartphones using technologies like Swift for iOS and Kotlin for Android.",
+                "Android apps use Java or Kotlin, running on the Android OS with frameworks like Flutter.",
+                "Cross platform frameworks like React Native enable development for both iOS and Android from a single codebase."
+            ]
+        },
+        {
+            "category": "embedded_systems",
+            "questions": ["What are embedded systems?", "Tell me about IoT", "How do microcontrollers work?"],
+            "answers": [
+                "Embedded systems integrate computing into hardware devices like medical equipment, smart appliances, and IoT devices.",
+                "The Internet of Things (IoT) connects smart devices, enabling automation and data collection.",
+                "Microcontrollers manage embedded applications, executing low power computing tasks efficiently."
+            ]
+        },
+        {
+            "category": "artificial_intelligence",
+            "questions": ["What is AI?", "How does machine learning work?", "Tell me about natural language processing"],
+            "answers": [
+                "Artificial intelligence simulates human intelligence in machines, enabling tasks like speech recognition and decision making.",
+                "Machine learning allows systems to learn from data, improving performance over time.",
+                "Natural language processing enables machines to understand and generate human language, enhancing communication."
+            ]
+        },
+        {
+            "category": "natural_language_processing",
+            "questions": [
+                "What is natural language processing?",
+                "How does NLP improve chatbot interactions?",
+                "Tell me about named entity recognition"
+            ],
+            "answers": [
+                "Natural language processing enables machines to understand and generate human language, enhancing communication.",
+                "NLP improves chatbot interactions by enabling contextual awareness, sentiment analysis, and dynamic responses.",
+                "Named entity recognition is an NLP technique that identifies key entities like names, dates, and locations within text."
+            ]
+        }
+
+
+    ]
+}
